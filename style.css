@@ -197,7 +197,7 @@ html,body{
     background-color: #000000;
     border-radius: 50%;
 }
-.circle1>i{
+.c1>i{
     color: white;
     font-size: 25px;
 }
@@ -255,22 +255,82 @@ button:hover{
     display: flex;
     height: 100vh;
     width: 100vw;
-    background-color: aliceblue;
+    background-color: #06ab25;
     align-items: center;
     padding: 0px 80px;
 }
 #left2{
-    display: flex;
+    display: block;
     height: 80%;
     width: 50%;
     background-color: #06ab25;
 }
 #right2{
-    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     display: flex;
-    height: 40vw;
-    width: 40vw;
+    height: 38vw;
+    width: 38vw;
     border-radius: 50%;
-    border: 2px solid #06ab25;
-    margin-left: auto;   
+    border: 2px solid black;
+    margin-left: auto;
+}
+#text3{
+    height: 20%;
+    width: 100%;
+}
+#text3>h1{
+    font-size: 45px;
+}
+.info{
+    height: 50%;
+    width: 100%;
+    margin-top: 35px;    
+}
+.infos{
+    display: flex ;
+    gap: 20px;
+    padding-left: 20px;
+    align-items: center;
+    border-top: 2px solid black;
+    height: 50%;
+    width: 100%;
+}
+.c2{
+    height: 3vw;
+    width: 3vw;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.c2>i{
+    color: white;
+    font-size: 25px;
+}
+ul {
+    list-style-type: disc;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+    color: black;
+}
+.infosfoot{
+    display: block ;
+    font-weight: bold;
+    gap: 20px;
+    padding-left: 20px;
+    align-items: center;
+    border-top: 2px solid black;
+    height: 50%;
+    width: 100%;
+}
+.infosfoot>p{
+    padding-top: 40px;
+    padding-left: 0px;
 }
