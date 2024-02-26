@@ -37,6 +37,7 @@ html,body{
     background-color: #fff
 }
 #center-nav{
+    margin-right: 35%;
     display: flex;
     gap: 20px;
 }
