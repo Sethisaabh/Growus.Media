@@ -26,11 +26,13 @@
         width: 50%;
     }
     #text1{
-        margin: 50px 20px;
-        height: 80%;
+        margin: 15px 10px;
+        padding-right: 30px;
+        height: 90%;
         color: #06ab25;
-        width: 50%;
+        width: 60%;
         position: absolute;
+        /* border: 2px solid #06ab25; */
     }
     #page1>#left{
         position: absolute;
@@ -82,5 +84,84 @@
     .c1>i{
         color: white;
         font-size: 20px;
+    }
+    #text2{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        height: 20%;
+        width: 30%;
+        scale: 1.1; 
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        display: flex;
+        /* border: 2px solid black; */
+    }
+    #testimonials{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        height: 50%;
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 5%;
+    }
+    .test{
+        border-top: 2px solid black;
+        /* border: 2px solid black; */
+        height: 100%;
+        width: 31%;
+    }
+    #test1{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        padding: 0px 0px;
+        height: 30%;
+        width: 100%;
+        /* border: 2px solid black */
+    }
+    #test1>h2{
+        /* margin-right: 5px; */
+        margin-left: 30px;
+        align-items: center;
+    }
+    #testimage{
+        height: 70%;
+        width: 100%;
+        /* border: 2px solid black; */
+        /* background-image: url(https://media.istockphoto.com/id/638510752/photo/business-decision-concept.jpg?s=1024x1024&w=is&k=20&c=szFB5NXja2k_U05OiHIeeOQfx4oUMglpK_BBRDV_SZU=); */
+        background-size: cover;
+    }
+    #testimage>ul {
+        list-style-type: disc;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+    
+    li {
+        margin-left: 10%;
+        margin-bottom: 10px;
+        color: black;
+    }
+    .t1{
+        position: relative;
+        top: -20%;
+    }
+    .t2{
+        position: relative;
+        top: -38%;
+    }
+    .t3{
+        position: relative;
+        top: -68%;
     }
 }

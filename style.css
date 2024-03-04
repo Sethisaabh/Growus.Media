@@ -145,10 +145,11 @@ html,body{
 }
 #text1{
     margin: 50px 40px;
-    height: 80%;
+    height: 85%;
     color: #06ab25;
     width: 50%;
     position: absolute;
+    /* border: 2px solid #06ab25; */
 }
 #text1>h1{
     font-size: 45px;
@@ -177,10 +178,11 @@ html,body{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: 5%
+    bottom: 5%;
 }
 .test{
     border-top: 2px solid black;
+    /* border: 2px solid black; */
     height: 100%;
     width: 31%;
 }
